@@ -22,7 +22,7 @@
         @apply pc:w-full pc:h-fit mob:w-full mob:h-fit ;
     }
     .header {
-        @apply pc:w-full pc:h-[100px] pc:bg-[url('/public/images/menu/header-back.png')] pc:flex pc:justify-center pc:content-center pc:fixed pc:z-10 mob:fixed mob:z-10 mob:w-full mob:h-[185px] mob:bg-[url('/public/images/menu/header-back.png')] mob:flex mob:justify-center mob:content-center;
+        @apply pc:w-full pc:h-[100px] pc:bg-[#2b2b2b] pc:flex pc:justify-center pc:content-center pc:fixed pc:z-10 mob:fixed mob:z-10 mob:w-full mob:h-[185px] mob:bg-[#2b2b2b] mob:flex mob:justify-center mob:content-center;
     }
     .header__center {
         @apply pc:w-full pc:h-full pc:flex pc:justify-center pc:content-center pc:flex-row pc:flex-wrap mob:w-full mob:h-full mob:flex mob:justify-center mob:content-center mob:flex-col mob:flex-wrap;
@@ -38,7 +38,7 @@
     }
     .menu__bar {
         @apply pc:w-full pc:h-full pc:sticky pc:top-0 pc:flex pc:flex-row pc:flex-wrap pc:justify-start pc:content-center pc:pt-[20px] pc:pr-[20px] pc:overflow-visible
-        mob:w-full mob:h-0 mob:overflow-hidden mob:flex mob:flex-col mob:flex-wrap mob:justify-start mob:content-start mob:order-2 mob:absolute mob:bg-[url('/public/images/menu/header-back.png')] mob:top-[185px] mob:transition-all mob:duration-300 mob:ease-linear;
+        mob:w-full mob:h-0 mob:overflow-hidden mob:flex mob:flex-col mob:flex-wrap mob:justify-start mob:content-start mob:order-2 mob:absolute mob:bg-[#2b2b2b] mob:top-[185px] mob:transition-all mob:duration-300 mob:ease-linear;
     }
     .menu__item {
         @apply pc:w-fit pc:h-fit pc:flex pc:flex-wrap pc:flex-row pc:justify-center pc:content-center pc:relative;
@@ -108,7 +108,7 @@
         @apply pc:w-full pc:h-fit pc:flex pc:flex-col pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-fit mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:content-center ;
     }
     .introduction__center {
-        @apply pc:w-[700px] pc:flex pc:flex-col pc:flex-wrap pc:justify-center pc:items-start pc:mb-0 mob:w-fit mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-center mob:px-[20px] mob:mb-[30px] ;
+        @apply pc:w-[700px] pc:flex pc:flex-col pc:flex-wrap pc:justify-center pc:items-start pc:mb-0 mob:w-fit mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-start mob:px-[20px] mob:mb-[30px] ;
     }
     .brder {
         @apply pc:block pc:w-[96%]  pc:h-[1px] pc:bg-[#d6d5d5] mob:hidden ;
@@ -258,7 +258,81 @@
     .social__media__center {
         @apply pc:w-full pc:h-full pc:flex pc:flex-row pc:flex-nowrap pc:justify-center pc:items-center mob:w-full mob:h-full mob:flex mob:flex-row mob:flex-nowrap mob:justify-center mob:items-center ;
     }
+    .social__media__items {
+        @apply pc:w-[53px] pc:h-[53px] pc:transition-all pc:duration-200 pc:ease-linear mob:w-[53px] mob:h-[53px] mob:transition-all mob:duration-200 mob:ease-linear ;
+    }
+    .social__media__link {
+        @apply pc:block pc:w-[53px] pc:h-[53px] mob:block mob:w-[53px] mob:h-[53px] ;
+    }
+    .image__1 {
+        @apply pc:bg-[url('/public/images/footer/social-media/facebook.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/facebook-1.png')] mob:bg-[url('/public/images/footer/social-media/facebook.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/facebook-1.png')] ;
+    }
+    .image__2 {
+        @apply pc:bg-[url('/public/images/footer/social-media/linkedin.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/linkedin-1.png')] mob:bg-[url('/public/images/footer/social-media/linkedin.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/linkedin-1.png')] ;
+    }
+    .image__3 {
+        @apply pc:bg-[url('/public/images/footer/social-media/instagram.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/instagram-1.png')] mob:bg-[url('/public/images/footer/social-media/instagram.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/instagram-1.png')] ;
+    }
+    .image__4 {
+        @apply pc:bg-[url('/public/images/footer/social-media/telegram.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/telegram-1.png')] mob:bg-[url('/public/images/footer/social-media/telegram.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/telegram-1.png')] ;
+    }
+    .image__5 {
+        @apply pc:bg-[url('/public/images/footer/social-media/aparat.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/aparat-1.png')] mob:bg-[url('/public/images/footer/social-media/aparat.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/aparat-1.png')] ;
+    }
+    .image__6 {
+        @apply pc:bg-[url('/public/images/footer/social-media/golestan.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/golestan-1.png')] mob:bg-[url('/public/images/footer/social-media/golestan.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/golestan-1.png')] ;
+    }
     .red__counter {
         @apply pc:w-full pc:h-[30px] pc:bg-[#ED1C24] mob:w-full mob:h-[30px] mob:bg-[#ED1C24] ;
+    }
+    .footer__menu__container {
+        @apply pc:w-full pc:h-[370px] pc:bg-[#2b2b2b] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-fit mob:bg-[#2b2b2b] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center ;
+    }
+    .menu__container__center {
+        @apply pc:w-full pc:h-full pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center pc:gap-5 mob:w-full mob:h-full mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-center mob:gap-5 ;
+    }
+    .menu__container__items {
+        @apply pc:w-[170px] pc:h-[344px] pc:flex pc:flex-col pc:flex-wrap pc:justify-center pc:items-start mob:w-[96%] mob:h-[344px] mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-start ;
+    }
+    .footer__icon {
+        @apply pc:w-full pc:h-[31%] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-start mob:w-full mob:h-[31%] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-start ;
+    }
+    .footer__icon__img {
+        @apply pc:w-[115px] pc:h-[90px] mob:w-[115px] mob:h-[90px] ;
+    }
+    .footer__line {
+        @apply pc:block pc:w-full pc:h-[1px] pc:bg-[#ffffff] pc:opacity-[0.4] mob:block mob:w-full mob:h-[1px] mob:bg-[#ffffff] mob:opacity-[0.4] ;
+    }
+    .footer__title {
+        @apply pc:w-full pc:h-[13%] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-[13%] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center ;
+    }
+    .footer__titles {
+        @apply pc:font-[Yekan] pc:text-[#ffffff] pc:text-[16px] pc:leading-[35px] mob:font-[Yekan] mob:text-[#ffffff] mob:text-[16px] mob:leading-[35px] ;
+    }
+    .footer__menu {
+        @apply pc:w-full pc:h-[55%] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-[55%] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center ;
+    }
+    .footer__menu__container {
+        @apply pc:w-full pc:h-full pc:flex pc:flex-col pc:flex-wrap pc:justify-center pc:items-start mob:w-full mob:h-full mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-center ;
+    }
+    .footer__menu__item {
+        @apply pc:font-[light-Y] pc:text-[#babec1] pc:text-[13px] pc:leading-[35px] pc:text-right mob:font-[light-Y] mob:text-[#babec1] mob:text-[13px] mob:leading-[35px] mob:text-right ;
+    }
+    .copy__right {
+        @apply pc:w-full pc:h-[120px] pc:bg-[#2b2b2b] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-[120px] mob:bg-[#2b2b2b] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center ;
+    }
+    .copy__right__center {
+        @apply pc:w-full pc:h-full pc:flex pc:flex-col pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-full mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-center ;
+    }
+    .copy__right__para {
+        @apply pc:font-[calibri] pc:text-[#babec1] pc:text-[17px] pc:leading-[25px] pc:text-right pc:font-light mob:font-[calibri] mob:text-[#babec1] mob:text-[17px] mob:leading-[25px] mob:text-right mob:font-light ;
+    }
+
+
+
+
+
+    #myBtn {
+        @apply pc:hidden pc:fixed pc:bottom-[20px] pc:left-[20px] pc:z-50 pc:border-none pc:outline-none pc:bg-[rgb(162_162_162)] pc:cursor-pointer pc:p-[10px] pc:rounded-[8px] pc:first-letter:text-[25px] pc:hover:bg-[rgb(120_120_120)] mob:hidden mob:fixed mob:bottom-[20px] mob:left-[20px] mob:z-50 mob:border-none mob:outline-none mob:bg-[rgb(162_162_162)] mob:cursor-pointer mob:p-[10px] mob:rounded-[8px] mob:first-letter:text-[25px] mob:hover:bg-[rgb(120_120_120)] ;
     }
 }
