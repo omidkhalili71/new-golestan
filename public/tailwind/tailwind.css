@@ -175,7 +175,10 @@
         @apply pc:w-full pc:h-full pc:flex pc:flex-row pc:flex-wrap pc:justify-start pc:items-center mob:w-full mob:h-full mob:flex mob:flex-row mob:flex-wrap mob:justify-start mob:items-center ;
     }
     .jurnal_pooster {
-        @apply pc:w-full pc:h-[250px] pc:bg-[url('/public/images/jurnal/recipe-baner-1.png')] pc:bg-no-repeat pc:bg-center mob:w-full mob:h-[250px] mob:bg-[url('/public/images/jurnal/recipe-baner-1.png')] mob:bg-no-repeat mob:bg-center ;
+        @apply pc:w-full pc:h-[250px] pc:bg-[url('/public/images/recipe-baner-1.jpg')] pc:bg-no-repeat pc:bg-center mob:w-full mob:h-[250px] mob:bg-[url('/public/images/recipe-baner-1.jpg')] mob:bg-no-repeat mob:bg-center ;
+    }
+    .pooster {
+        @apply pc:w-full pc:h-[250px] pc:object-cover mob:w-full mob:h-[250px] mob:object-cover ;
     }
     .card__container, .video__container {
         @apply pc:w-full pc:h-[775px] pc:flex pc:flex-row-reverse pc:flex-nowrap pc:justify-center pc:content-center pc:gap-x-5 pc:bg-[#CDE4B0] pc:py-[85px] mob:w-full mob:h-fit mob:flex mob:flex-row-reverse mob:flex-wrap mob:justify-center mob:content-center mob:gap-5 mob:bg-[#CDE4B0] mob:py-[85px] ;
@@ -207,7 +210,7 @@
 
 
     .Social__responsibility {
-        @apply pc:w-full pc:h-fit pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center pc:mb-[100px] mob:w-full mob:h-fit mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center pc:mb-[100px] ;
+        @apply pc:w-full pc:h-fit pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center pc:mb-[100px] mob:w-full mob:h-fit mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center mob:mb-[100px] ;
     }
     .Social__responsibility__center {
         @apply pc:w-full pc:h-full pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-full mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center ;

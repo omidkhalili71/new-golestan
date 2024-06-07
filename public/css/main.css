@@ -1644,7 +1644,7 @@ video {
   .jurnal_pooster {
     height: 250px;
     width: 100%;
-    background-image: url('/public/images/jurnal/recipe-baner-1.png');
+    background-image: url('/public/images/recipe-baner-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -1654,9 +1654,27 @@ video {
   .jurnal_pooster {
     height: 250px;
     width: 100%;
-    background-image: url('/public/images/jurnal/recipe-baner-1.png');
+    background-image: url('/public/images/recipe-baner-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 0) {
+  .pooster {
+    height: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pooster {
+    height: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -1854,6 +1872,7 @@ video {
 
 @media (min-width: 0) {
   .Social__responsibility {
+    margin-bottom: 100px;
     display: flex;
     height: -moz-fit-content;
     height: fit-content;
