@@ -175,7 +175,7 @@
         @apply pc:w-full pc:h-full pc:flex pc:flex-row pc:flex-wrap pc:justify-start pc:items-center mob:w-full mob:h-full mob:flex mob:flex-row mob:flex-wrap mob:justify-start mob:items-center ;
     }
     .jurnal_pooster {
-        @apply pc:w-full pc:h-[250px] pc:bg-[url('/public/images/recipe-baner-1.jpg')] pc:bg-no-repeat pc:bg-center mob:w-full mob:h-[250px] mob:bg-[url('/public/images/recipe-baner-1.jpg')] mob:bg-no-repeat mob:bg-center ;
+        @apply pc:w-full pc:h-[250px] pc:bg-no-repeat pc:bg-center mob:w-full mob:h-[250px] mob:bg-no-repeat mob:bg-center ;
     }
     .pooster {
         @apply pc:w-full pc:h-[250px] pc:object-cover mob:w-full mob:h-[250px] mob:object-cover ;
@@ -268,22 +268,22 @@
         @apply pc:block pc:w-[53px] pc:h-[53px] mob:block mob:w-[53px] mob:h-[53px] ;
     }
     .image__1 {
-        @apply pc:bg-[url('/public/images/footer/social-media/facebook.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/facebook-1.png')] mob:bg-[url('/public/images/footer/social-media/facebook.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/facebook-1.png')] ;
+        @apply pc:bg-[url('../../public/images/footer/social-media/facebook.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('../../public/images/footer/social-media/facebook-1.png')] mob:bg-[url('../../public/images/footer/social-media/facebook.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('../../public/images/footer/social-media/facebook-1.png')] ;
     }
     .image__2 {
-        @apply pc:bg-[url('/public/images/footer/social-media/linkedin.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/linkedin-1.png')] mob:bg-[url('/public/images/footer/social-media/linkedin.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/linkedin-1.png')] ;
+        @apply pc:bg-[url('../../public/images/footer/social-media/linkedin.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('../../public/images/footer/social-media/linkedin-1.png')] mob:bg-[url('../../public/images/footer/social-media/linkedin.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('../../public/images/footer/social-media/linkedin-1.png')] ;
     }
     .image__3 {
-        @apply pc:bg-[url('/public/images/footer/social-media/instagram.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/instagram-1.png')] mob:bg-[url('/public/images/footer/social-media/instagram.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/instagram-1.png')] ;
+        @apply pc:bg-[url('../../public/images/footer/social-media/instagram.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('../../public/images/footer/social-media/instagram-1.png')] mob:bg-[url('../../public/images/footer/social-media/instagram.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('../../public/images/footer/social-media/instagram-1.png')] ;
     }
     .image__4 {
-        @apply pc:bg-[url('/public/images/footer/social-media/telegram.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/telegram-1.png')] mob:bg-[url('/public/images/footer/social-media/telegram.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/telegram-1.png')] ;
+        @apply pc:bg-[url('../../public/images/footer/social-media/telegram.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('../../public/images/footer/social-media/telegram-1.png')] mob:bg-[url('../../public/images/footer/social-media/telegram.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('../../public/images/footer/social-media/telegram-1.png')] ;
     }
     .image__5 {
-        @apply pc:bg-[url('/public/images/footer/social-media/aparat.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/aparat-1.png')] mob:bg-[url('/public/images/footer/social-media/aparat.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/aparat-1.png')] ;
+        @apply pc:bg-[url('../../public/images/footer/social-media/aparat.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('../../public/images/footer/social-media/aparat-1.png')] mob:bg-[url('../../public/images/footer/social-media/aparat.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('../../public/images/footer/social-media/aparat-1.png')] ;
     }
     .image__6 {
-        @apply pc:bg-[url('/public/images/footer/social-media/golestan.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('/public/images/footer/social-media/golestan-1.png')] mob:bg-[url('/public/images/footer/social-media/golestan.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('/public/images/footer/social-media/golestan-1.png')] ;
+        @apply pc:bg-[url('../../public/images/footer/social-media/golestan.png')] pc:bg-no-repeat pc:bg-cover pc:bg-center pc:hover:pc:bg-[url('../../public/images/footer/social-media/golestan-1.png')] mob:bg-[url('../../public/images/footer/social-media/golestan.png')] mob:bg-no-repeat mob:bg-cover mob:bg-center mob:hover:mob:bg-[url('../../public/images/footer/social-media/golestan-1.png')] ;
     }
     .red__counter {
         @apply pc:w-full pc:h-[30px] pc:bg-[#ED1C24] mob:w-full mob:h-[30px] mob:bg-[#ED1C24] ;
