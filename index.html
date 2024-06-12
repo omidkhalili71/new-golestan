@@ -324,10 +324,7 @@
   
             <div class="video__container">
               <div class="jurnal__video">
-                <iframe
-                  src="https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame"
-                  frameborder="0"
-                ></iframe>
+                <video class="card__video" src="./public/video/FlexClip-2.mp4" controls></video>
                 <div class="card__description">
                   <h5 class="general__title pc:mt-[20px] mob:mt-[20px]">سالاد نودل</h5>
                   <p class="jurnal__para">
@@ -341,10 +338,7 @@
                 </div>
               </div>
               <div class="jurnal__video">
-                <iframe
-                  src="https://www.aparat.com/video/video/embed/videohash/Ysaot/vt/frame"
-                  frameborder="0"
-                ></iframe>
+                <video class="card__video" src="./public/video/FlexClip.mp4" controls></video>
                 <div class="card__description">
                   <h5 class="general__title pc:mt-[20px] mob:mt-[20px]">اینستاگرام هاتی نودل</h5>
                   <p class="jurnal__para">
@@ -358,10 +352,7 @@
                 </div>
               </div>
               <div class="jurnal__video third__video">
-                <iframe
-                  src="https://www.aparat.com/video/video/embed/videohash/Mwp4H/vt/frame"
-                  frameborder="0"
-                ></iframe>
+                <video class="card__video" src="./public/video/FlexClip-2.mp4" controls></video>
                 <div class="card__description">
                   <h5 class="general__title pc:mt-[20px] mob:mt-[20px]">برنج گلستان</h5>
                   <p class="jurnal__para">
@@ -530,29 +521,23 @@
         </footer>
         <!-- footer end -->
         <!-- floating buttons start -->
-         <div class="floating__buttons">
+        <div class="floating__buttons">
           <button onclick='window.scrollTo({top: 0, behavior: "smooth"});' id="myBtn" title="Go to top">
             <img src="./public/images/floating/chevron-up-16.png" alt="">
           </button>
-         </div>
+          <button class="myDark" title="dark mode on or off">
+            <img src="./public/images/floating/icons8-moon-and-stars-40.png" alt="">
+          </button>
         <!-- floating buttons end -->
       </div>
-      <script>
-        let mybutton = document.getElementById("myBtn");
-        window.onscroll = function() {scrollFunction()};
 
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-  
+      <script>
+        let darkMode = document.querySelector(".myDark")
+        darkMode.addEventListener("click",function(){
+          document.children[0].classList.toggle("dark")
+        })
+
+      
       </script>
     <!-- end create site -->
 
