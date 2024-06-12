@@ -25,7 +25,7 @@
         @apply pc:w-full pc:h-fit mob:w-full mob:h-fit ;
     }
     .header {
-        @apply pc:w-full pc:h-[100px] pc:bg-[#2b2b2b] pc:flex pc:justify-center pc:content-center pc:fixed pc:z-10 mob:fixed mob:z-10 mob:w-full mob:h-[185px] mob:bg-[#2b2b2b] mob:flex mob:justify-center mob:content-center dark:bg-[#1D1D1F] ;
+        @apply pc:w-full pc:h-[100px] pc:bg-[#2b2b2b] pc:flex pc:justify-center pc:content-center pc:fixed pc:z-10 mob:fixed mob:z-10 mob:w-full mob:h-[185px] mob:bg-[#2b2b2b] mob:flex mob:justify-center mob:content-center  ;
     }
     .header__center {
         @apply pc:w-full pc:h-full pc:flex pc:justify-center pc:content-center pc:flex-row pc:flex-wrap mob:w-full mob:h-full mob:flex mob:justify-center mob:content-center mob:flex-col mob:flex-wrap;
@@ -40,8 +40,7 @@
         @apply pc:w-[72%] pc:h-full pc:flex pc:justify-center pc:content-center mob:w-full mob:h-[75px] mob:flex mob:content-center mob:flex-row mob:justify-start mob:flex-wrap ;
     }
     .menu__bar {
-        @apply pc:w-full pc:h-full pc:sticky pc:top-0 pc:flex pc:flex-row pc:flex-wrap pc:justify-start pc:content-center pc:pt-[20px] pc:pr-[20px] pc:overflow-visible 
-        mob:w-full mob:h-0 mob:overflow-hidden mob:flex mob:flex-col mob:flex-wrap mob:justify-start mob:content-start mob:order-2 mob:absolute  mob:top-[185px] mob:transition-all mob:duration-300 mob:ease-linear  ;
+        @apply pc:w-full pc:h-full pc:sticky pc:top-0 pc:flex pc:flex-row pc:flex-wrap pc:justify-start pc:content-center pc:pt-[20px] pc:pr-[20px] pc:overflow-visible mob:w-full mob:h-0 mob:overflow-hidden mob:flex mob:flex-col mob:flex-wrap mob:justify-start mob:content-start mob:order-2 mob:absolute  mob:top-[185px] mob:transition-all mob:duration-300 mob:ease-linear mob:bg-[#2b2b2b] ;
     }
     .menu__item {
         @apply pc:w-fit pc:h-fit pc:flex pc:flex-wrap pc:flex-row pc:justify-center pc:content-center pc:relative;
@@ -57,7 +56,7 @@
         @apply pc:block pc:w-[1px] pc:bg-menu-gray pc:h-[30px] pc:self-center pc:opacity-[0.5] mob:hidden;
     }
     .sub__menu {
-        @apply pc:flex pc:flex-col pc:absolute pc:w-fit pc:h-fit pc:top-[150%] pc:right-[-1.4vw] pc:bg-menu-back pc:pr-[30px] pc:pl-[40px] pc:py-[15px] pc:opacity-0 pc:group-hover:opacity-[1] mob:w-full mob:h-fit mob:flex mob:flex-col mob:flex-wrap mob:pr-[50px] dark:bg-[#1b1b1d];
+        @apply pc:flex pc:flex-col pc:absolute pc:w-fit pc:h-fit pc:top-[150%] pc:right-[-1.4vw] pc:bg-menu-back pc:pr-[30px] pc:pl-[40px] pc:py-[15px] pc:opacity-0 pc:group-hover:opacity-[1] mob:w-full mob:h-fit mob:flex mob:flex-col mob:flex-wrap mob:pr-[50px] mob:bg-menu-back ;
     }
     .sub__menu__item {
         @apply pc:hidden pc:w-fit pc:leading-[40px] pc:whitespace-nowrap pc:text-menu-gray pc:font-[Yekan] pc:text-[16px] pc:hover:text-[#ffffff] pc:transition-all pc:duration-300 pc:ease-linear pc:group-hover:block mob:hidden mob:w-fit mob:h-fit mob:whitespace-nowrap mob:text-menu-gray mob:font-[Yekan] mob:text-[16px] mob:hover:text-[#ffffff] mob:transition-all mob:duration-300 mob:ease-linear mob:leading-[40px];
@@ -301,7 +300,7 @@
         @apply pc:w-full pc:h-[30px] pc:bg-[#ED1C24] mob:w-full mob:h-[30px] mob:bg-[#ED1C24] ;
     }
     .footer__menu__container {
-        @apply pc:w-full pc:h-[370px] pc:bg-[#2b2b2b] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-fit mob:bg-[#2b2b2b] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center dark:bg-[#1D1D1F] ;
+        @apply pc:w-full pc:h-[370px] pc:bg-[#2b2b2b] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-fit mob:bg-[#2b2b2b] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center ;
     }
     .menu__container__center {
         @apply pc:w-full pc:h-full pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center pc:gap-5 mob:w-full mob:h-full mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-center mob:gap-5 ;
@@ -334,7 +333,7 @@
         @apply pc:font-[light-Y] pc:text-[#babec1] pc:text-[13px] pc:leading-[35px] pc:text-right pc:hover:text-[#ffffff] mob:font-[light-Y] mob:text-[#babec1] mob:text-[13px] mob:leading-[35px] mob:text-right mob:hover:text-[#ffffff] ;
     }
     .copy__right {
-        @apply pc:w-full pc:h-[120px] pc:bg-[#2b2b2b] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-[120px] mob:bg-[#2b2b2b] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center dark:bg-[#1D1D1F] ;
+        @apply pc:w-full pc:h-[120px] pc:bg-[#2b2b2b] pc:flex pc:flex-row pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-[120px] mob:bg-[#2b2b2b] mob:flex mob:flex-row mob:flex-wrap mob:justify-center mob:items-center ;
     }
     .copy__right__center {
         @apply pc:w-full pc:h-full pc:flex pc:flex-col pc:flex-wrap pc:justify-center pc:items-center mob:w-full mob:h-full mob:flex mob:flex-col mob:flex-wrap mob:justify-center mob:items-center ;
